@@ -10,7 +10,7 @@ Files
 simple.rb
 ---------
 
-An almost empty template that creates a .gitignore and start with some gems.
+An almost empty template that configures rvm to use a new gemset, creates a .gitignore and configure the app to work with haml and sass.
 
 License
 =======
