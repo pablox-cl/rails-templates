@@ -19,6 +19,7 @@ create_file ".rvmrc", "rvm use @#{app_name}"
 gem "haml", "~> 3.1.1"
 gem "sass", "~> 3.1.2"
 gem "nifty-generators", "~> 0.4.6", :group => :development
+gem "mocha", "~> 0.9.12", :group => :test
 
 generate 'nifty:layout --haml'
 remove_file 'app/views/layouts/application.html.erb'
